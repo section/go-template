@@ -12,7 +12,7 @@ main() {
   envsubst '$IMAGE_NAME' < ../k8s/deploy.yaml | kubectl apply -f -
   kubectl apply -f ../k8s/ingress-upstream.yaml
 
-  kubectl rollout restart deployment go
+  kubectl rollout restart deployment section-project-deployment
 }
 
 setCluster() {

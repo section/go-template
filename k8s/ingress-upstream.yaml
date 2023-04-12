@@ -6,7 +6,7 @@ metadata:
     app: ingress-upstream
 spec:
   selector:
-    app: go
+    app: console-project
   ports:
     - name: 80-to-8080
       protocol: TCP

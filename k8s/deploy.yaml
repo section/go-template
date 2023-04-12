@@ -1,29 +1,29 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: go
+  name: section-project-deployment
   labels:
-    app: go
+    app: console-project
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: go
+      app: console-project
   template:
     metadata:
       labels:
-        app: go
+        app: console-project
     spec:
       containers:
-      - name: go
-        image: ghcr.io/${IMAGE_NAME}:main
-        imagePullPolicy: Always
-        resources:
-          requests:
-            cpu: ".1"
-            memory: ".1Gi"
-          limits:
-            cpu: ".1"
-            memory: ".1Gi"
-        ports:
-        - containerPort: 8080
+        - name: console-project
+          image: ghcr.io/${IMAGE_NAME}:main
+          imagePullPolicy: Always
+          resources:
+            requests:
+              cpu: ".1"
+              memory: ".1Gi"
+            limits:
+              cpu: ".1"
+              memory: ".1Gi"
+          ports:
+            - containerPort: 8080
