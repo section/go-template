@@ -29,7 +29,8 @@ COPY --from=build /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=build /etc/passwd /etc/passwd
 COPY --from=build /etc/group /etc/group
 
-COPY --from=build /usr/src/app .
+COPY --from=build /usr/src/app/main .
+COPY --from=build /usr/src/app/static static/
 
 USER small-user:small-user
 
