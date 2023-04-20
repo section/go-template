@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Go Template | Section</title>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="flex flex-col min-h-screen bg-[#1f2635] text-white xl:container xl:mx-auto p-6 sm:p-8">
+        <!-- Navbar -->
+        <div class="columns-2 flex items-center relative">
+            <div class="mr-auto">
+                <a href="https://www.section.io/?utm_source=sp&utm_campaign=template&utm_medium=organic" target="_blank" rel="nofollow noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="117" height="40"><defs><path id="a" d="M0 39.174h116.87V.437H0z"/></defs><g fill="none" fill-rule="evenodd"><path fill="#00A86B" d="m8.84 27.888 10.95 2.333V9.743L8.84 12.067v15.821zm14.21 6.592L6.215 29.93V10.018l16.81-4.517.024 28.98z"/><path fill="#00A86B" d="M16.145.622 0 6.478v27.024l16.145 5.857V.622zM2.877 31.915V8.067l10.044-3.1v30.047l-10.044-3.1z"/><path fill="#038754" d="m16.145 10.515 1.593-.337V6.922l-1.593.427zm0 22.098 1.593.43v-3.259l-1.593-.34z"/><g fill="#fff" transform="translate(0 .185)"><path d="M39.904 18.07c-3.144-.454-3.753-1.185-3.753-2.646 0-1.386 1.065-2.369 3.119-2.369 2.051 0 3.136.79 3.48 2.625l2.966-.801c-.64-2.874-2.887-4.344-6.446-4.344-3.778 0-6.313 2.217-6.313 5.166 0 3.376 2.053 4.686 6.388 5.266 2.942.479 3.779 1.109 3.779 2.772 0 1.663-1.42 2.772-3.423 2.772-3.068 0-3.804-1.512-4.031-3.326h-.01l-3.125.844c.523 2.953 2.643 5.002 7.166 5.002 4.006 0 6.668-2.445 6.668-5.57 0-3.603-2.206-4.812-6.465-5.392m10.777 2.747c.304-2.042 1.546-3.276 3.397-3.276 1.902 0 3.068 1.008 3.22 3.276h-6.617zm3.397-5.493c-3.777 0-6.592 2.72-6.592 6.803v.202c0 4.158 2.815 6.703 6.719 6.703 3.398 0 5.655-1.513 6.085-4.284h-2.966c-.229 1.285-1.192 2.016-3.044 2.016-2.281 0-3.549-1.412-3.65-3.906h9.71v-.882c0-4.712-2.966-6.652-6.262-6.652zm14.428 11.364c-2.257 0-3.677-1.512-3.677-4.384V22.1c0-2.721 1.496-4.334 3.6-4.334 1.623 0 2.79.731 3.043 2.494h2.967c-.355-3.628-3.12-4.938-6.06-4.938-3.702 0-6.693 2.646-6.693 6.829v.2c0 4.209 2.89 6.679 6.693 6.679 3.6 0 5.908-2.142 6.136-5.166H71.7c-.177 1.865-1.571 2.822-3.194 2.822m10.863-1.864v-6.929h2.916V15.6h-2.916v-4.236l-3.068.83V25.1c0 2.494 1.369 3.905 4.006 3.905.938 0 1.597-.15 2.079-.327v-2.42c-.43.177-.888.253-1.496.253-.963 0-1.521-.53-1.521-1.689"/><mask id="b"><use xlink:href="#a"/></mask><path d="M84.719 28.779h3.068V15.6h-3.068zm15.366-6.502c0 2.696-1.37 4.385-3.652 4.385-2.332 0-3.676-1.689-3.676-4.385v-.201c0-2.721 1.394-4.36 3.676-4.36s3.652 1.664 3.652 4.385v.176zm-3.652-6.954c-3.905 0-6.82 2.72-6.82 6.803v.202c0 4.007 2.89 6.703 6.795 6.703 3.904 0 6.82-2.672 6.82-6.779v-.201c0-4.032-2.916-6.728-6.795-6.728zm15.899 0c-2.18 0-3.651 1.083-4.285 2.368v-2.09h-3.068v13.178h3.068v-7.762c0-2.09 1.394-3.15 3.118-3.15 1.826 0 2.637.907 2.637 2.899v8.013h3.068v-8.29c0-3.63-1.876-5.166-4.538-5.166m-27.613-1.531h3.068v-3.049h-3.068z" mask="url(#b)"/></g></g></svg>
+                </a>
+            </div>
+
+            <div class="flex sm:mt-1.5">
+                <ul class="hidden sm:flex space-x-6 font-semibold border-r border-white/10 pr-6">
+                    <li>
+                        <a href="https://www.section.io/docs/?utm_source=sp&utm_campaign=template&utm_medium=organic" target="_blank" rel="nofollow noopener">Docs</a>
+                    </li>
+                    <li>
+                        <a href="https://console.section.io/support/?utm_source=sp&utm_campaign=template&utm_medium=organic" target="_blank" rel="nofollow noopener">Support</a>
+                    </li>
+                </ul>
+
+                <div class="flex items-center">
+                    <a href="https://discord.gg/section" target="_blank" rel="nofollow noopener" class="ml-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" class="w-5 h-5" viewBox="0 0 127.14 96.36"><path d="M107.7 8.07A105.15 105.15 0 0 0 81.47 0a72.06 72.06 0 0 0-3.36 6.83 97.68 97.68 0 0 0-29.11 0A72.37 72.37 0 0 0 45.64 0a105.89 105.89 0 0 0-26.25 8.09C2.79 32.65-1.71 56.6.54 80.21a105.73 105.73 0 0 0 32.17 16.15 77.7 77.7 0 0 0 6.89-11.11 68.42 68.42 0 0 1-10.85-5.18c.91-.66 1.8-1.34 2.66-2a75.57 75.57 0 0 0 64.32 0c.87.71 1.76 1.39 2.66 2a68.68 68.68 0 0 1-10.87 5.19 77 77 0 0 0 6.89 11.1 105.25 105.25 0 0 0 32.19-16.14c2.64-27.38-4.51-51.11-18.9-72.15ZM42.45 65.69C36.18 65.69 31 60 31 53s5-12.74 11.43-12.74S54 46 53.89 53s-5.05 12.69-11.44 12.69Zm42.24 0C78.41 65.69 73.25 60 73.25 53s5-12.74 11.44-12.74S96.23 46 96.12 53s-5.04 12.69-11.43 12.69Z"/></svg>
+                    </a>
+                    <a href="https://twitter.com/sectionio" target="_blank" rel="nofollow noopener" class="ml-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" class="w-5 h-5" viewBox="0 0 24 24"><path d="M24 4.557a9.83 9.83 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724 9.864 9.864 0 0 1-3.127 1.195 4.916 4.916 0 0 0-3.594-1.555c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 0 1 1.671 3.149a4.93 4.93 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.928 4.928 0 0 0 4.6 3.419A9.9 9.9 0 0 1 0 19.54a13.94 13.94 0 0 0 7.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0 0 24 4.557z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main -->
+        <div class="flex flex-col flex-1 justify-center items-center min-h-[50%] my-16">
+            <div class="w-full max-w-xs">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="Layer_1" x="0" y="0" style="enable-background:new 0 0 254.5 225" version="1.1" viewBox="24.7 77.87 205.39 76.73"><style>.st5{fill:#fff}</style><path d="M40.2 101.1c-.4 0-.5-.2-.3-.5l2.1-2.7c.2-.3.7-.5 1.1-.5h35.7c.4 0 .5.3.3.6l-1.7 2.6c-.2.3-.7.6-1 .6l-36.2-.1zM25.1 110.3c-.4 0-.5-.2-.3-.5l2.1-2.7c.2-.3.7-.5 1.1-.5h45.6c.4 0 .6.3.5.6l-.8 2.4c-.1.4-.5.6-.9.6l-47.3.1zM49.3 119.5c-.4 0-.5-.3-.3-.6l1.4-2.5c.2-.3.6-.6 1-.6h20c.4 0 .6.3.6.7l-.2 2.4c0 .4-.4.7-.7.7l-21.8-.1z" class="st5"/><g id="CXHf1q_2_"><path d="M153.1 99.3c-6.3 1.6-10.6 2.8-16.8 4.4-1.5.4-1.6.5-2.9-1-1.5-1.7-2.6-2.8-4.7-3.8-6.3-3.1-12.4-2.2-18.1 1.5-6.8 4.4-10.3 10.9-10.2 19 .1 8 5.6 14.6 13.5 15.7 6.8.9 12.5-1.5 17-6.6.9-1.1 1.7-2.3 2.7-3.7h-19.3c-2.1 0-2.6-1.3-1.9-3 1.3-3.1 3.7-8.3 5.1-10.9.3-.6 1-1.6 2.5-1.6h36.4c-.2 2.7-.2 5.4-.6 8.1-1.1 7.2-3.8 13.8-8.2 19.6-7.2 9.5-16.6 15.4-28.5 17-9.8 1.3-18.9-.6-26.9-6.6-7.4-5.6-11.6-13-12.7-22.2-1.3-10.9 1.9-20.7 8.5-29.3 7.1-9.3 16.5-15.2 28-17.3 9.4-1.7 18.4-.6 26.5 4.9 5.3 3.5 9.1 8.3 11.6 14.1.6.9.2 1.4-1 1.7z" class="st5"/><path d="M186.2 154.6c-9.1-.2-17.4-2.8-24.4-8.8-5.9-5.1-9.6-11.6-10.8-19.3-1.8-11.3 1.3-21.3 8.1-30.2 7.3-9.6 16.1-14.6 28-16.7 10.2-1.8 19.8-.8 28.5 5.1 7.9 5.4 12.8 12.7 14.1 22.3 1.7 13.5-2.2 24.5-11.5 33.9-6.6 6.7-14.7 10.9-24 12.8-2.7.5-5.4.6-8 .9zm23.8-40.4c-.1-1.3-.1-2.3-.3-3.3-1.8-9.9-10.9-15.5-20.4-13.3-9.3 2.1-15.3 8-17.5 17.4-1.8 7.8 2 15.7 9.2 18.9 5.5 2.4 11 2.1 16.3-.6 7.9-4.1 12.2-10.5 12.7-19.1z" class="st5"/></g></svg>
+            </div>
+
+            <div class="w-full max-w-fit bg-white/10 text-sm font-mono leading-none overflow-x-auto rounded-md pl-2 py-3 mt-8 lg:mt-10">
+                <p class="whitespace-nowrap">
+                    Get started by editing <span class="font-semibold mr-2">static/index.html</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 lg:gap-10">
+            <div>
+                <p class="leading-7 font-semibold flex items-center mb-2">
+                    Go live
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5" class="ml-1.5 w-5 h-5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7a15.53 15.53 0 0 1-.311.06 15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+                </p>
+                <p class="text-sm leading-6 opacity-70">
+                    <a href="https://www.section.io/docs/guides/projects/dns/?utm_source=sp&utm_campaign=template&utm_medium=organic" target="_blank" rel="nofollow noopener" class="underline">Add a custom domain</a>, change your DNS, and take advantage of <a href="https://www.section.io/docs/guides/projects/ssl/?utm_source=sp&utm_campaign=template&utm_medium=organic" target="_blank" rel="nofollow noopener" class="underline">free SSL/TLS certificates</a>.
+                </p>
+            </div>
+
+            <div>
+                <p class="leading-7 font-semibold flex items-center mb-2">
+                    Optimize
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5" class="ml-1.5 w-5 h-5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75"/></svg>
+                </p>
+                <p class="text-sm leading-6 opacity-70">
+                    <a href="https://www.section.io/pricing?utm_source=sp&utm_campaign=template&utm_medium=organic" target="_blank" rel="nofollow noopener" class="underline">Select the right plan</a> for your RAM and CPU requirements and choose the best global locations.
+                </p>
+            </div>
+
+            <div>
+                <p class="leading-7 font-semibold flex items-center mb-2">
+                    Observe
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5" class="ml-1.5 w-5 h-5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 3.75H6A2.25 2.25 0 0 0 3.75 6v1.5M16.5 3.75H18A2.25 2.25 0 0 1 20.25 6v1.5m0 9V18A2.25 2.25 0 0 1 18 20.25h-1.5m-9 0H6A2.25 2.25 0 0 1 3.75 18v-1.5M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/></svg>
+                </p>
+                <p class="text-sm leading-6 opacity-70">
+                    <a href="https://www.section.io/docs/guides/monitor/?utm_source=sp&utm_campaign=template&utm_medium=organic" target="_blank" rel="nofollow noopener" class="underline">Send telemetry data</a> to your analytics provider for operational consistency and visibility.
+                </p>
+            </div>
+
+            <div>
+                <p class="leading-7 font-semibold flex items-center mb-2">
+                    Grow
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5" class="ml-1.5 w-5 h-5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18 9 11.25l4.306 4.307a11.95 11.95 0 0 1 5.814-5.519l2.74-1.22m0 0-5.94-2.28m5.94 2.28-2.28 5.941"/></svg>
+                </p>
+                <p class="text-sm leading-6 opacity-70">
+                    <a href="https://www.section.io/docs/explanations/kubernetes/?utm_source=sp&utm_campaign=template&utm_medium=organic" target="_blank" rel="nofollow noopener" class="underline">Use Kubernetes resources</a> to deploy additional microservices in your global namespace.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
